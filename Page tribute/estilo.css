@@ -47,3 +47,9 @@ div p{
 .records li{
     list-style: none;
 }
+footer{
+    border:5px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
