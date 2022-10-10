@@ -1,0 +1,115 @@
+body {
+  background-color: rgb(36, 36, 36);
+}
+.header {
+  background-color: rgb(44, 44, 44);
+  font-size: 1.4em;
+  color: white;
+  font-weight: 700;
+  height: 3em;
+
+  display: flex;
+  flex-direction: row;
+}
+.header p {
+  font-family: "Ruda", sans-serif;
+  font-size: 1.5em;
+
+}
+.header-img{
+
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.header-img img{
+    width: 4.25em;
+    height: 4.25em;
+}
+.header-title{
+
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+   
+}  
+.header-title p {
+padding-left: 2em;
+}
+
+.backgr {
+
+  width: 100%;
+  height: 20%;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  flex-direction: row;
+}
+.video {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video iframe {
+  display: flex;
+  
+}
+.text {
+  width: 50%;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: "Pacifico", cursive;
+}
+.sub-title {
+  color: white;
+  text-align: justify;
+  padding: 2px 2px 0px 2px;
+  font-family: "Ruda", sans-serif;
+  text-indent: 2.5em;
+}
+.card-box{
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6;
+    font-family: "Ruda", sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card1{
+width: 33%;
+display: flex;
+flex-direction: row;
+text-align: justify;
+}
+.card1 img {
+    width: 18em;
+    height: 18em;
+}
+.card2{
+    width: 33%;
+    display: flex;
+flex-direction: row;
+text-align: justify;
+}
+.card2 img {
+    width:18em;
+    height: 18em;
+}
+.card3{
+    width: 33%;
+    display: flex;
+flex-direction: row;
+text-align: justify;
+}
+.card3 img {
+    width: 16em;
+    height: 16em;
+}
