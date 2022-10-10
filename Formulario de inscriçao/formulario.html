@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Formulario escola virtual</title>
+</head>
+<body>
+    <div class = "head">
+        <h1>Escola Virtual</h1><hr>
+        <h2>Formulario de pré matricula</h2>  
+    </div>
+
+    <div class = "form">
+        <strong>Dados Pessoais</strong>
+        <p>Nome do aluno: <input class="naluno" type="text" placeholder="Nome do Aluno"></p>
+        <p>Nascimento(dd/mm/aaaa): <input class="nasc" type="date"></p>
+        <p>Nome da Mãe: <input class="nmae" type="text" placeholder="Nome da mae"></p>
+        <p>Nome do pai: <input class="npai" type="text" placeholder="nome do pai"></p>
+        <p>Telefone:  <input class="tel" type="tel" maxlength="11" size="11" placeholder="Telefone de contato"></p>
+        <p>Email <input class="email" type="text" placeholder="Email de contato"></p>
+    </div>
+    <div class = "head2">
+        <h2>Infomações da matricula</h2>
+    </div>
+    <div class="form2">
+       <div class="div1">
+        <p class="serie">Serie: 
+            <select name="Serie" id="id">Serie
+                <option value="valor1">Pre escolar</option>
+                <option value="valor2">Primario</option>
+                <option value="valor3">Ginasio</option>
+                <option value="valor4">Ensino medio</option>
+                <option value="valor5">Faculdade</option>
+            </select>
+        </p> 
+            
+       </div>
+   
+       <div class="div2">
+        <p class = "pcenter">
+            turno: <br>
+            <input type="radio" name="turno" value="manha">Manhã <br>
+            <input type="radio" name="turno" value="tarde">tarde <br>
+            <input type="radio" name="turno" value="noite"> Noite <br>
+           </p>
+       </div>
+      <div class="div3">
+        <p>
+            Atividades extra curriculares: <br>
+            <input type="checkbox" name = "futebol"> futebol <br>
+            <input type="checkbox" name = "basquete"> basquete <br>
+            <input type="checkbox" name = "volei"> volei <br>
+            <input type="checkbox" name = "informatica"> informatica <br>
+        </p>
+      </div>
+    
+    </div>
+
+   
+    
+</body>
+</html>
