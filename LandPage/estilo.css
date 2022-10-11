@@ -6,14 +6,16 @@ body{
   background-color: #f7f7f7;
 }
 .header {
-  background-color: rgb(44, 44, 44);
   font-size: 1.4em;
-  color: white;
+  color: black;
   font-weight: 700;
   height: 3em;
-
   display: flex;
   flex-direction: row;
+  background-color: #f6f6f6;
+  border: 3px solid black;
+  border-radius: 5px;
+  
 }
 .header p {
   font-family: "Ruda", sans-serif;
@@ -22,19 +24,23 @@ body{
 .header-img {
   width: 40%;
   display: flex;
+  align-items: center;
   justify-content: flex-end;
+
 }
 .header-img img {
-  width: 4.25em;
-  height: 4.25em;
+  width: 6.25em;
+  height: 2.0em;
 }
 .header-title {
   width: 60%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: flex-start;
 }
-.header-title p {
-  padding-left: 2em;
+.header .header-title p {
+  padding-left: 1em;
+
 }
 
 .backgr {
@@ -128,4 +134,12 @@ body{
   display: flex;
   align-items: center;
   line-height: 1.7em;
+}
+footer{
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  font-family: "Ruda", sans-serif;
 }
