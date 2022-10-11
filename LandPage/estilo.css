@@ -1,5 +1,5 @@
-body {
-  background-color: rgb(36, 36, 36);
+body{
+  background-color: #f7f7f7;
 }
 .header {
   background-color: rgb(44, 44, 44);
@@ -14,31 +14,26 @@ body {
 .header p {
   font-family: "Ruda", sans-serif;
   font-size: 1.5em;
-
 }
-.header-img{
-
-    width: 40%;
-    display: flex;
-    justify-content: flex-end;
+.header-img {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
 }
-.header-img img{
-    width: 4.25em;
-    height: 4.25em;
+.header-img img {
+  width: 4.25em;
+  height: 4.25em;
 }
-.header-title{
-
-    width: 60%;
-    display: flex;
-    align-items: flex-start;
-   
-}  
+.header-title {
+  width: 60%;
+  display: flex;
+  align-items: flex-start;
+}
 .header-title p {
-padding-left: 2em;
+  padding-left: 2em;
 }
 
 .backgr {
-
   width: 100%;
   height: 20%;
   background-color: rgb(44, 44, 44);
@@ -54,7 +49,6 @@ padding-left: 2em;
 }
 .video iframe {
   display: flex;
-  
 }
 .text {
   width: 50%;
@@ -72,45 +66,62 @@ padding-left: 2em;
   padding: 2px 2px 0px 2px;
   font-family: "Ruda", sans-serif;
   text-indent: 2.5em;
+  line-height: 1.7em;
 }
-.card-box{
-    width: 100%;
-    height: 100%;
-    background-color: #f6f6f6;
-    font-family: "Ruda", sans-serif;
-    border: 2px solid black;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
+.card-box {
+  width: 100%;
+  height: 100%;
+  background-color: #f6f6f6;
+  font-family: "Ruda", sans-serif;
+  display: flex;
+  flex-direction: row;
 }
 
-.card1{
-width: 33%;
-display: flex;
-flex-direction: row;
-text-align: justify;
+.card1 {
+  width: 33%;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  text-indent: 2.5em;
 }
 .card1 img {
-    width: 18em;
-    height: 18em;
+  width: 18em;
+  height: 18em;
 }
-.card2{
-    width: 33%;
-    display: flex;
-flex-direction: row;
-text-align: justify;
+.card-box .card1 p{
+  display: flex;
+  align-items: center;
+  line-height: 1.7em;
+}
+.card2 {
+  width: 33%;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  text-indent: 2.5em;
 }
 .card2 img {
-    width:18em;
-    height: 18em;
+  width: 18em;
+  height: 18em;
 }
-.card3{
-    width: 33%;
-    display: flex;
-flex-direction: row;
-text-align: justify;
+.card-box .card2 p{
+  display: flex;
+  align-items: center;
+  line-height: 1.7em;
+}
+.card3 {
+  width: 33%;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  text-indent: 2.5em;
 }
 .card3 img {
-    width: 16em;
-    height: 16em;
+  width: 16em;
+  height: 16em;
+}
+.card-box .card3 p{
+  display: flex;
+  align-items: center;
+  line-height: 1.7em;
 }
