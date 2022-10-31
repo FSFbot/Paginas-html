@@ -6,6 +6,7 @@
 body{
    font-family: "Montserrat";
    font-size: 13px;
+   overflow-x: hidden;
 }
 
 header{
@@ -27,7 +28,7 @@ header{
     width: 80px;
     height: 80px;
     background-color: #b28756;
-
+border-radius: 40px;
 }
 
 .menu{
@@ -57,5 +58,84 @@ header{
 }
 .menu li a:hover,.menu .active a{
     border-bottom: 5px solid #b28756;
-    
+    color: gray
+   
+}
+/*Fim da  parte da area do header*/
+/*Inicio da area da main*/
+.banner{
+    height: calc(100vh - 100px); 
+    background-color: #333;
+    background-image: url('../complementos/images/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+}
+.banner  .sliders{
+    width: 1000vw;
+    height: 100%;
+}
+.banner .slide{
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.8);
+}
+.banner .slidearea{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white
+}
+.banner h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+}
+.banner h1 span{
+    color: #b28756;
+}
+.banner h2{
+ text-transform: uppercase;
+ margin-top: 20px;
+}
+.banner a{
+    display: block;
+    background-color: #b28756;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.banner .sliders-pointers{
+    width: 100vw;
+    height: 20px;
+   
+    position: absolute;
+    margin-top: -400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer
+}
+.banner .pointer .active{
+    background-color: #b28756;
+}
+.dafault{
+    background-color: red;
 }
